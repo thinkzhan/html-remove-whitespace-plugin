@@ -1,21 +1,24 @@
 {
   "name": "html-remove-whitespace-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "thinkzhan",
   "main": "index.js",
   "files": [
     "lib",
-    "index.js",
+    "index.js"
   ],
   "scripts": {
-    "test": "no"
+    "test": "mocha"
   },
-  "repository": "https://github.com/liberalist1991/mangle-js-webpack-plugin.git",
+  "repository": "https://github.com/liberalist1991/html-remove-whitespace-plugin.git",
   "keywords": [
     "Webpack",
     "js",
     "minify",
     "remove"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
